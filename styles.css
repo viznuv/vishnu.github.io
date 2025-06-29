@@ -1365,6 +1365,120 @@ li {
     text-decoration: underline;
 }
 
+/* New styles for separate pages */
+.section-intro {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.research-item {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 4px solid #3498db;
+    transition: box-shadow 0.2s ease;
+}
+
+.research-item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.research-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.research-item p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.projects-table {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.project-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+    align-items: start;
+}
+
+.project-row:last-child {
+    border-bottom: none;
+}
+
+.project-row.header {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.project-name {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.project-stage {
+    color: #3498db;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.project-snapshot {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.vision-item {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 4px solid #e74c3c;
+    transition: box-shadow 0.2s ease;
+}
+
+.vision-item:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.vision-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.vision-item p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.vision-item code {
+    background: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #e74c3c;
+}
+
 @media (max-width: 1100px) {
     .main-content {
         padding: 2rem 1rem 1rem 1rem;
@@ -1382,6 +1496,28 @@ li {
         margin-left: 0;
         max-width: 100vw;
         padding: 1.5rem 0.5rem;
+    }
+    
+    .project-row {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .project-row.header {
+        display: none;
+    }
+    
+    .project-name {
+        font-weight: 600;
+        color: #2c3e50;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 0.5rem;
+    }
+    
+    .project-stage {
+        font-size: 0.9rem;
+        color: #3498db;
+        font-weight: 500;
     }
 }
 @media (max-width: 700px) {
@@ -1406,5 +1542,16 @@ li {
     }
     h2 {
         font-size: 1.3rem;
+    }
+    
+    .research-item,
+    .vision-item {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .section-intro {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
     }
 } 
