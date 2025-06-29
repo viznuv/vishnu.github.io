@@ -1267,6 +1267,33 @@ body.academic-layout {
     color: #3498db;
 }
 
+.sidebar-nav hr {
+    width: 100%;
+    margin: 1rem 0;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    opacity: 0.6;
+}
+
+.sidebar-nav a[href*="research-programme"],
+.sidebar-nav a[href*="working-projects"],
+.sidebar-nav a[href*="vision-values"] {
+    font-size: 0.95rem;
+    color: #666;
+    font-weight: 400;
+}
+
+.sidebar-nav a[href*="research-programme"]:hover,
+.sidebar-nav a[href*="working-projects"]:hover,
+.sidebar-nav a[href*="vision-values"]:hover,
+.sidebar-nav a[href*="research-programme"].active,
+.sidebar-nav a[href*="working-projects"].active,
+.sidebar-nav a[href*="vision-values"].active {
+    background: #f0f4fa;
+    color: #3498db;
+    font-weight: 500;
+}
+
 .main-content {
     margin-left: 320px;
     padding: 3rem 2.5rem 2rem 2.5rem;
