@@ -3,624 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Vishnu Prasad V | Academic Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <meta name="description" content="Dr. Vishnu Prasad V - Assistant Professor of Marketing at Jio Institute. AI, Brand Activism, Social Media Research.">
+    <title>Dr. Vishnu Prasad V | Jio Institute</title>
+    <meta name="description" content="Dr. Vishnu Prasad V - Assistant Professor, Marketing Area at Jio Institute. Research in AI, Brand Activism, and Digital Communication.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="academic-layout">
-    <aside class="sidebar">
-        <div class="sidebar-inner">
-            <div class="profile-pic">
-                <img src="profile.jpg" alt="Dr. Vishnu Prasad V" />
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-main">
+                    <h1>Dr. Vishnu Prasad V</h1>
+                    <p class="title">Assistant Professor, Marketing Area<br>Jio Institute</p>
+                </div>
+                <nav class="header-nav">
+                    <a href="#education">Education</a>
+                    <a href="#teaching">Teaching</a>
+                    <a href="#research">Research</a>
+                    <a href="research-programme.html">Research Programme</a>
+                </nav>
             </div>
-            <h1 class="sidebar-name">Dr. Vishnu Prasad V</h1>
-            <div class="sidebar-title">Assistant Professor<br>Marketing Area, Jio Institute</div>
-            <div class="sidebar-contact">
-                <a href="mailto:vishnuprasad@sjmsom.in" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="mailto:vishnu19.v@jioinstitute.edu.in" title="Email"><i class="fas fa-envelope-open"></i></a>
-                <a href="https://github.com/viznuv" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/vishnuprasadv1/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <nav class="sidebar-nav">
-                <a href="#top" style="font-weight: 600; color: #2c3e50;">Home</a>
-                <a href="#education">Education</a>
-                <a href="#appointment">Appointment</a>
-                <a href="#teaching">Teaching</a>
-                <a href="#research-tabs">Research & Projects</a>
-                <a href="#vision-tabs">Vision & Values</a>
-                <hr style="margin: 1rem 0; border: none; border-top: 1px solid #e5e5e5;">
-                <a href="research-programme.html">Research Programme</a>
-                <a href="working-projects.html">Working Solutions</a>
-                <a href="vision-values.html">Vision & Values</a>
-            </nav>
         </div>
-    </aside>
-    <main class="main-content">
-        <section id="education">
-            <h2>Education</h2>
-            <ul class="edu-list">
-                <li><b>Ph.D., Marketing Management</b>, Indian Institute of Management Kozhikode <span class="edu-date">(July 2019–March 2024)</span></li>
-                <li><b>MBA</b>, Shailesh J. Mehta School of Management, IIT Bombay <span class="edu-date">(June 2015–May 2017)</span></li>
-                <li><b>B.Tech., Industrial Biotechnology</b>, Government College of Technology, Coimbatore <span class="edu-date">(June 2011–May 2015)</span></li>
-            </ul>
-        </section>
-        <section id="appointment">
-            <h2>Academic Appointment</h2>
-            <p><b>Assistant Professor, Marketing Area, Jio Institute</b> <span class="edu-date">(July 2024–present)</span></p>
-            <ul>
-                <li>Course management for PGP Marketing</li>
-                <li>Teaching Marketing Research Methods and Advanced Data Analytics</li>
-            </ul>
-        </section>
-        <section id="teaching">
-            <h2>Teaching Portfolio</h2>
-            <div class="teaching-cols">
-                <div>
-                    <h3>Core Courses</h3>
-                    <ul>
-                        <li>Marketing Management I/II</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Elective Courses</h3>
-                    <ul>
-                        <li>Marketing Research Methods</li>
-                        <li>Product Management</li>
-                        <li>AI Product Development</li>
-                        <li>Principles of Marketing & Marketing Theory</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Tabbed Research & Projects Section -->
-        <section id="research-tabs">
-            <h2>Research & Teaching Interests</h2>
-            <ul>
-                <li>Brand Activism</li>
-                <li>Consumer Research on AI, Blockchain, Metaverse</li>
-                <li>Cause-Related Marketing</li>
-                <li>Advanced Data Analytics & Experimental Methods</li>
-            </ul>
-            
-            <div class="tabbed-section">
-                <div class="tab-navigation">
-                    <button class="tab-button active" onclick="openTab(event, 'research-programme')">
-                        <i class="fas fa-microscope"></i> Research Programme
-                    </button>
-                    <button class="tab-button" onclick="openTab(event, 'working-projects')">
-                        <i class="fas fa-code-branch"></i> Working Solutions
-                    </button>
-                    <button class="tab-button" onclick="openTab(event, 'vision-values')">
-                        <i class="fas fa-lightbulb"></i> Vision & Values
-                    </button>
-                </div>
+    </header>
 
-                <!-- Research Programme Tab -->
-                <div id="research-programme" class="tab-content active">
-                    <div class="tab-header">
-                        <h3><i class="fas fa-microscope"></i> Research Programme</h3>
-                        <p class="section-intro">A comprehensive empirical research portfolio employing rigorous experimental and computational methodologies to advance marketing theory and practice.</p>
-                    </div>
-                    
-                    <h2>Marketing Technologies & AI-Driven Consumer Insights</h2>
-                    
-                    <div class="research-grid">
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-robot"></i>
-                            </div>
-                            <h4>AI Recommendation Systems</h4>
-                            <p>Compared personalised, collaborative-filter, and generic engines in field settings and found that context-aware hybrids deepened engagement and conversion quality. Multilevel mixed-effects and causal-inference estimators captured individual and situational heterogeneity across campaigns.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <h4>Generative AI for Personalisation</h4>
-                            <p>Built real-time fine-tuning workflows that aligned large language models with shopper intent, illustrating how conversational agents can deliver adaptive offers without compromising privacy. Evaluation studies positioned this framework as a scalable complement to classic recommenders.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <h4>Bayesian Marketing-Mix & Attribution</h4>
-                            <p>Developed PyMC-based models that reconstructed media decay, saturation, and interaction effects to estimate campaign effectiveness under uncertainty. A Shapley-inspired attribution pipeline reassigned conversion credit with impression-level precision, clarifying each channel's marginal contribution.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
-                            <h4>Virtual Consumption & Compulsive Buying</h4>
-                            <p>Triangulated survey experiments with behavioural traces to reveal how platform cues, fear of missing out, and reinforcement sensitivity shaped bursts of virtual spending. Structural-equation models showed impulsivity and perceived scarcity acting as sequential mediators of compulsive intent.</p>
+    <main class="site-main">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="hero-intro">
+                            Assistant Professor in Marketing at Jio Institute, specializing in Consumer Research on AI, 
+                            Blockchain & Metaverse, Marketing Technologies, and Cause-Related Marketing.
+                        </p>
+                        <div class="contact-info">
+                            <a href="mailto:vishnuprasad@sjmsom.in">vishnuprasad@sjmsom.in</a>
+                            <span class="separator">•</span>
+                            <a href="mailto:vishnu19.v@jioinstitute.edu.in">vishnu19.v@jioinstitute.edu.in</a>
                         </div>
                     </div>
-
-                    <h2>Brand Activism & Consumer Ethics</h2>
-                    
-                    <div class="research-grid">
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-hand-holding-heart"></i>
-                            </div>
-                            <h4>Trust Formation & Backlash Dynamics</h4>
-                            <p>Applied a brand-cause-consumer balance framework to show how congruence and message believability strengthened trust, whereas misalignment triggered reactance. Longitudinal analyses linked these perceptual shifts to loyalty trajectories and advocacy behaviours.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <h4>Expectation Violation & Recovery</h4>
-                            <p>Through a programme of laboratory, field, and event studies examined how timing, valence, and attribution of activism missteps unravelled brand trust. Follow-up work detailed recovery strategies that re-stabilised consumer sentiment and mitigated financial fallout.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-network-wired"></i>
-                            </div>
-                            <h4>Platform Governance & Autonomy</h4>
-                            <p>Investigated how punitive tactics such as credential crackdowns eroded perceived autonomy, while engagement-oriented nudges restored cooperative behaviour. Findings integrated social-exchange logic with reactance-control theory to offer actionable governance guidelines.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-balance-scale"></i>
-                            </div>
-                            <h4>Ethical Digital Behaviour</h4>
-                            <p>Explored normative determinants of collaborative consumption, focusing on password sharing, data transparency, and pro-environmental purchasing. The research clarified how perceptions of fairness and self-determination shaped ethical compliance in digital contexts.</p>
-                        </div>
-                    </div>
-
-                    <h2>Digital Communication & Societal Dynamics</h2>
-                    
-                    <div class="research-grid">
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-check-circle"></i>
-                            </div>
-                            <h4>Credibility & Community Fact-Checking</h4>
-                            <p>Analysed community-driven fact-checking notes and showed how bipartisan wording and source diversity enhanced perceived helpfulness. Sentiment-trajectory mapping traced the diffusion of credibility cues throughout social networks.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h4>Echo Chambers & Gatekeeping</h4>
-                            <p>Employed network clustering and Bayesian label propagation to detect emergent ideological clusters without imposing prior labels. Simulation studies indicated that moderation policy design influenced discourse diversity more than feed-ranking algorithms.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-comments"></i>
-                            </div>
-                            <h4>Human–LLM Opinion Dynamics</h4>
-                            <p>Examined extended user-assistant dialogues and observed that repeated exposure reduced lexical entropy yet widened belief distance on contentious topics. Linguistic patterns pointed to progressive conceptual separation driven by subtle reinforcement mechanisms.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-eye"></i>
-                            </div>
-                            <h4>Attention Bias in Conversational Advertising</h4>
-                            <p>Reverse-engineered token-level attention patterns in chat models and demonstrated that strategically positioned brand keywords improved recall and persuasive intent. Controlled prompt-insertion tests validated the salience advantage of mid-answer placements for sponsored content.</p>
-                        </div>
-
-                        <div class="research-card">
-                            <div class="research-icon">
-                                <i class="fas fa-vr-cardboard"></i>
-                            </div>
-                            <h4>Metaverse Service Perception</h4>
-                            <p>Extending the stereotype-content model, found that perceived warmth and competence jointly drove engagement and word-of-mouth in immersive retail and service contexts. Experimental results outlined actionable design levers for elevating virtual brand experiences.</p>
-                        </div>
+                    <div class="hero-image">
+                        <img src="profile.jpg" alt="Dr. Vishnu Prasad V">
                     </div>
                 </div>
+            </section>
 
-                <!-- Working Solutions Tab -->
-                <div id="working-projects" class="tab-content">
-                    <div class="tab-header">
-                        <h3><i class="fas fa-code-branch"></i> Working Solutions & Research Initiatives</h3>
-                        <p class="section-intro">Ongoing research initiatives at various stages of the scientific pipeline, from conceptualization to peer review. Each solution represents methodological innovation and theoretical advancement in marketing science.</p>
+            <!-- Education Section -->
+            <section id="education" class="content-section">
+                <h2>Education</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>Ph.D., Marketing Management</h3>
+                        <p>Indian Institute of Management Kozhikode <span class="year">2019 – 2024</span></p>
                     </div>
-                    
-                    <!-- Academic Research Pipeline Analysis -->
-                    <div class="academic-metrics">
-                        <h4>Research Pipeline Analysis (Q4 2024)</h4>
-                        <div class="pipeline-analysis">
-                            <div class="pipeline-stats">
-                                <div class="stat-item">
-                                    <div class="stat-number">7</div>
-                                    <div class="stat-label">Active Initiatives</div>
-                                </div>
-                                <div class="stat-item">
-                                    <div class="stat-number">3</div>
-                                    <div class="stat-label">Under Peer Review</div>
-                                </div>
-                                <div class="stat-item">
-                                    <div class="stat-number">2</div>
-                                    <div class="stat-label">Data Collection</div>
-                                </div>
-                                <div class="stat-item">
-                                    <div class="stat-number">2</div>
-                                    <div class="stat-label">Model Development</div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="chart-caption">Figure 2: Distribution of research initiatives across methodological development stages</p>
+                    <div class="education-item">
+                        <h3>MBA</h3>
+                        <p>Shailesh J. Mehta School of Management, IIT Bombay <span class="year">2015 – 2017</span></p>
                     </div>
-                    
-                    <div class="projects-timeline">
-                        <div class="project-item">
-                            <div class="project-status deployed">
-                                <i class="fas fa-rocket"></i>
-                                <span>Deployed</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-chart-bar"></i> Research Analytics Dashboard: Citation Impact Tracking</h4>
-                                <p><strong>Research Objective:</strong> Develop a comprehensive analytics platform for tracking research impact metrics and citation dynamics across academic outputs.</p>
-                                <p><strong>Methodological Approach:</strong> Automated data collection from academic databases, real-time citation tracking, and impact factor analysis using bibliometric indicators.</p>
-                                <p><strong>Current Status:</strong> Operational dashboard tracking 15+ research outputs with automated GitHub Actions for metric updates and citation momentum analysis.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Bibliometrics</span>
-                                    <span class="tech-tag">Impact Analysis</span>
-                                    <span class="tech-tag">Automated Tracking</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-item">
-                            <div class="project-status review">
-                                <i class="fas fa-search"></i>
-                                <span>Under Peer Review</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-eye"></i> Visual Saliency Analysis: Thumbnail Optimization Framework</h4>
-                                <p><strong>Research Objective:</strong> Investigate the relationship between visual saliency patterns and click-through rates in digital marketing contexts.</p>
-                                <p><strong>Methodological Approach:</strong> Computer vision algorithms for saliency detection, mixed-effects modeling for click prediction, and A/B testing validation framework.</p>
-                                <p><strong>Current Status:</strong> Manuscript under review at Computer Vision and Pattern Recognition conference, with preliminary results showing 23% improvement in CTR prediction accuracy.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Computer Vision</span>
-                                    <span class="tech-tag">Saliency Detection</span>
-                                    <span class="tech-tag">Mixed-Effects Models</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-item">
-                            <div class="project-status testing">
-                                <i class="fas fa-vial"></i>
-                                <span>Experimental Validation</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-robot"></i> Contextual Bandit Optimization: Dynamic Budget Allocation</h4>
-                                <p><strong>Research Objective:</strong> Develop an adaptive optimization framework for real-time marketing budget allocation across multiple channels.</p>
-                                <p><strong>Methodological Approach:</strong> Contextual bandit algorithms with Thompson sampling, multi-armed bandit optimization, and regret minimization techniques.</p>
-                                <p><strong>Current Status:</strong> Algorithm validation completed with synthetic data, preparing for field deployment with demand-side platform integration.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Contextual Bandits</span>
-                                    <span class="tech-tag">Thompson Sampling</span>
-                                    <span class="tech-tag">Regret Minimization</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-item">
-                            <div class="project-status modeling">
-                                <i class="fas fa-cogs"></i>
-                                <span>Model Development</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-chart-line"></i> Influencer Marketing Mix Modeling: Cross-Platform Attribution</h4>
-                                <p><strong>Research Objective:</strong> Quantify the incremental impact of influencer marketing across multiple social media platforms using hierarchical Bayesian modeling.</p>
-                                <p><strong>Methodological Approach:</strong> Hierarchical Bayesian models with platform-specific priors, cross-platform attribution modeling, and posterior predictive checks.</p>
-                                <p><strong>Current Status:</strong> Data preprocessing completed, hierarchical priors specified, model fitting scheduled for Q1 2025 with cross-validation framework.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Hierarchical Bayes</span>
-                                    <span class="tech-tag">Cross-Platform Analysis</span>
-                                    <span class="tech-tag">Attribution Modeling</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-item">
-                            <div class="project-status validation">
-                                <i class="fas fa-check-double"></i>
-                                <span>Simulation Validation</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-shopping-bag"></i> Dynamic Pricing Optimization: Q-Learning Framework</h4>
-                                <p><strong>Research Objective:</strong> Develop a reinforcement learning framework for dynamic pricing optimization in quick-commerce environments.</p>
-                                <p><strong>Methodological Approach:</strong> Q-learning algorithms with epsilon-greedy exploration, demand forecasting integration, and synthetic demand shock validation.</p>
-                                <p><strong>Current Status:</strong> Algorithm validated against synthetic demand scenarios, field deployment planning with grocery retail partner in progress.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Q-Learning</span>
-                                    <span class="tech-tag">Reinforcement Learning</span>
-                                    <span class="tech-tag">Demand Forecasting</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-item">
-                            <div class="project-status drafting">
-                                <i class="fas fa-edit"></i>
-                                <span>Manuscript Development</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-newspaper"></i> News Sentiment Dynamics: System Dynamics Modeling</h4>
-                                <p><strong>Research Objective:</strong> Model the temporal dynamics of news sentiment and its impact on brand search behavior using system dynamics approaches.</p>
-                                <p><strong>Methodological Approach:</strong> Monte Carlo simulation engine, sentiment trajectory analysis, and policy implications modeling for crisis response.</p>
-                                <p><strong>Current Status:</strong> Simulation engine operational, manuscript drafting focused on theoretical contributions and managerial implications.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">System Dynamics</span>
-                                    <span class="tech-tag">Monte Carlo Simulation</span>
-                                    <span class="tech-tag">Sentiment Analysis</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="project-item">
-                            <div class="project-status collection">
-                                <i class="fas fa-database"></i>
-                                <span>Data Collection</span>
-                            </div>
-                            <div class="project-content">
-                                <h4><i class="fas fa-coins"></i> NFT Brand Signaling: Network Analysis Framework</h4>
-                                <p><strong>Research Objective:</strong> Investigate how NFT ownership patterns signal brand exclusivity and influence consumer perceptions using network analysis.</p>
-                                <p><strong>Methodological Approach:</strong> Graph neural networks for transaction pattern analysis, sentiment mining from social media, and exclusivity signaling modeling.</p>
-                                <p><strong>Current Status:</strong> NFT transaction data collection in progress, Reddit sentiment scraping framework operational, graph neural network architecture under development.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Graph Neural Networks</span>
-                                    <span class="tech-tag">Network Analysis</span>
-                                    <span class="tech-tag">Sentiment Mining</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="education-item">
+                        <h3>B.Tech., Industrial Biotechnology</h3>
+                        <p>Government College of Technology, Coimbatore <span class="year">2011 – 2015</span></p>
                     </div>
                 </div>
+            </section>
 
-                <!-- Vision & Values Tab -->
-                <div id="vision-values" class="tab-content">
-                    <div class="tab-header">
-                        <h3><i class="fas fa-lightbulb"></i> Research Philosophy & Academic Vision</h3>
-                        <p class="section-intro">My research philosophy is grounded in methodological rigor, theoretical innovation, and practical relevance. I advocate for evidence-based approaches that bridge disciplinary boundaries while maintaining the highest standards of academic integrity and scientific inquiry.</p>
+            <!-- Academic Appointment -->
+            <section class="content-section">
+                <h2>Academic Appointment</h2>
+                <div class="appointment-item">
+                    <h3>Assistant Professor, Marketing Area</h3>
+                    <p>Jio Institute <span class="year">July 2024 – Present</span></p>
+                </div>
+            </section>
+
+            <!-- Teaching Portfolio -->
+            <section id="teaching" class="content-section">
+                <h2>Teaching Portfolio</h2>
+                <div class="teaching-grid">
+                    <div class="teaching-category">
+                        <h3>Core Courses</h3>
+                        <ul>
+                            <li>Marketing Management I/II</li>
+                            <li>Marketing Research Methods</li>
+                            <li>Product Management</li>
+                        </ul>
                     </div>
-                    
-                    <!-- Academic Research Philosophy Framework -->
-                    <div class="academic-metrics">
-                        <h4>Research Philosophy Framework</h4>
-                        <div class="philosophy-analysis">
-                            <div class="philosophy-grid">
-                                <div class="philosophy-item">
-                                    <h5>Epistemological Foundation</h5>
-                                    <div class="philosophy-chart">
-                                        <svg width="100%" height="150" viewBox="0 0 300 150" style="max-width: 300px;">
-                                            <!-- Epistemological framework -->
-                                            <rect x="20" y="20" width="80" height="30" fill="#e8f5e8" stroke="#2d5a2d" stroke-width="2" rx="5"/>
-                                            <text x="60" y="40" font-family="Georgia, serif" font-size="10" text-anchor="middle" fill="#2d5a2d">Positivism</text>
-                                            
-                                            <rect x="110" y="20" width="80" height="30" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" rx="5"/>
-                                            <text x="150" y="40" font-family="Georgia, serif" font-size="10" text-anchor="middle" fill="#0c5460">Constructivism</text>
-                                            
-                                            <rect x="200" y="20" width="80" height="30" fill="#fff3cd" stroke="#856404" stroke-width="2" rx="5"/>
-                                            <text x="240" y="40" font-family="Georgia, serif" font-size="10" text-anchor="middle" fill="#856404">Pragmatism</text>
-                                            
-                                            <!-- Connecting arrows -->
-                                            <line x1="100" y1="35" x2="110" y2="35" stroke="#2c3e50" stroke-width="2"/>
-                                            <line x1="190" y1="35" x2="200" y2="35" stroke="#2c3e50" stroke-width="2"/>
-                                            
-                                            <!-- Central node -->
-                                            <circle cx="150" cy="100" r="25" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
-                                            <text x="150" y="105" font-family="Georgia, serif" font-size="9" text-anchor="middle" fill="white">Mixed</text>
-                                            <text x="150" y="118" font-family="Georgia, serif" font-size="9" text-anchor="middle" fill="white">Methods</text>
-                                            
-                                            <!-- Connecting lines to central node -->
-                                            <line x1="60" y1="50" x2="140" y2="85" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3,3"/>
-                                            <line x1="150" y1="50" x2="150" y2="75" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3,3"/>
-                                            <line x1="240" y1="50" x2="160" y2="85" stroke="#2c3e50" stroke-width="1" stroke-dasharray="3,3"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="philosophy-item">
-                                    <h5>Methodological Principles</h5>
-                                    <div class="principles-list">
-                                        <div class="principle-item">
-                                            <span class="principle-name">Rigorous Validation</span>
-                                            <div class="principle-bar">
-                                                <div class="principle-fill" style="width: 95%;"></div>
-                                            </div>
-                                            <span class="principle-percent">95%</span>
-                                        </div>
-                                        <div class="principle-item">
-                                            <span class="principle-name">Theoretical Contribution</span>
-                                            <div class="principle-bar">
-                                                <div class="principle-fill" style="width: 90%;"></div>
-                                            </div>
-                                            <span class="principle-percent">90%</span>
-                                        </div>
-                                        <div class="principle-item">
-                                            <span class="principle-name">Practical Relevance</span>
-                                            <div class="principle-bar">
-                                                <div class="principle-fill" style="width: 85%;"></div>
-                                            </div>
-                                            <span class="principle-percent">85%</span>
-                                        </div>
-                                        <div class="principle-item">
-                                            <span class="principle-name">Interdisciplinary Integration</span>
-                                            <div class="principle-bar">
-                                                <div class="principle-fill" style="width: 80%;"></div>
-                                            </div>
-                                            <span class="principle-percent">80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="chart-caption">Figure 3: Research philosophy framework showing epistemological foundations and methodological principles</p>
-                    </div>
-                    
-                    <div class="vision-grid">
-                        <div class="vision-card">
-                            <div class="vision-icon">
-                                <i class="fas fa-chart-bar"></i>
-                            </div>
-                            <h4>Evidence-Based Managerial Science</h4>
-                            <p><strong>Philosophical Position:</strong> Integration of behavioral theory with computational rigor to generate actionable managerial insights through rigorous empirical validation.</p>
-                            <p><strong>Methodological Approach:</strong> Systematic synthesis of experimental findings with computational modeling to develop predictive frameworks for managerial decision-making.</p>
-                            <p><strong>Academic Contribution:</strong> Advancement of evidence-based management through methodological innovation and theoretical integration across disciplinary boundaries.</p>
-                            <div class="vision-impact">
-                                <span class="impact-tag">Theoretical Integration</span>
-                                <span class="impact-tag">Empirical Validation</span>
-                                <span class="impact-tag">Managerial Relevance</span>
-                            </div>
-                        </div>
-
-                        <div class="vision-card">
-                            <div class="vision-icon">
-                                <i class="fas fa-puzzle-piece"></i>
-                            </div>
-                            <h4>Interdisciplinary Methodological Fusion</h4>
-                            <p><strong>Philosophical Position:</strong> Multi-perspective triangulation across marketing, information systems, and computer science domains to enhance theoretical robustness.</p>
-                            <p><strong>Methodological Approach:</strong> Systematic integration of diverse methodological traditions through meta-analytic synthesis and cross-validation frameworks.</p>
-                            <p><strong>Academic Contribution:</strong> Development of novel methodological frameworks that bridge disciplinary gaps and advance cumulative knowledge building.</p>
-                            <div class="vision-impact">
-                                <span class="impact-tag">Methodological Innovation</span>
-                                <span class="impact-tag">Cross-Disciplinary Synthesis</span>
-                                <span class="impact-tag">Theoretical Advancement</span>
-                            </div>
-                        </div>
-
-                        <div class="vision-card">
-                            <div class="vision-icon">
-                                <i class="fas fa-layer-group"></i>
-                            </div>
-                            <h4>Multi-Methodological Triangulation</h4>
-                            <p><strong>Philosophical Position:</strong> Systematic integration of experimental, observational, and computational methodologies to balance internal and ecological validity.</p>
-                            <p><strong>Methodological Approach:</strong> Adaptive sampling frameworks that co-evolve with emerging evidence gaps and theoretical developments.</p>
-                            <p><strong>Academic Contribution:</strong> Advancement of methodological rigor through innovative triangulation approaches and validity enhancement strategies.</p>
-                            <div class="vision-impact">
-                                <span class="impact-tag">Validity Enhancement</span>
-                                <span class="impact-tag">Adaptive Methodologies</span>
-                                <span class="impact-tag">Rigorous Triangulation</span>
-                            </div>
-                        </div>
-
-                        <div class="vision-card">
-                            <div class="vision-icon">
-                                <i class="fas fa-code"></i>
-                            </div>
-                            <h4>Reproducible Research Infrastructure</h4>
-                            <p><strong>Philosophical Position:</strong> Commitment to open science principles through systematic development of reproducible research artifacts and computational tools.</p>
-                            <p><strong>Methodological Approach:</strong> Systematic operationalization of abstract theoretical constructs through open-source software development and educational tool creation.</p>
-                            <p><strong>Academic Contribution:</strong> Advancement of cumulative science through enhanced reproducibility, transparency, and accessibility of research methodologies.</p>
-                            <div class="vision-impact">
-                                <span class="impact-tag">Open Science</span>
-                                <span class="impact-tag">Reproducibility</span>
-                                <span class="impact-tag">Educational Innovation</span>
-                            </div>
-                        </div>
-
-                        <div class="vision-card">
-                            <div class="vision-icon">
-                                <i class="fas fa-graduation-cap"></i>
-                            </div>
-                            <h4>Executive Education & Knowledge Transfer</h4>
-                            <p><strong>Philosophical Position:</strong> Systematic translation of academic research into practical applications through structured educational programs and advisory frameworks.</p>
-                            <p><strong>Methodological Approach:</strong> Development of Bayesian decision-making frameworks and data-driven culture transformation methodologies for organizational implementation.</p>
-                            <p><strong>Academic Contribution:</strong> Advancement of knowledge transfer mechanisms and evidence-based decision-making frameworks in organizational contexts.</p>
-                            <div class="vision-impact">
-                                <span class="impact-tag">Knowledge Transfer</span>
-                                <span class="impact-tag">Decision Frameworks</span>
-                                <span class="impact-tag">Organizational Impact</span>
-                            </div>
-                        </div>
-
-                        <div class="vision-card">
-                            <div class="vision-icon">
-                                <i class="fas fa-balance-scale"></i>
-                            </div>
-                            <h4>Ethical AI & Societal Responsibility</h4>
-                            <p><strong>Philosophical Position:</strong> Integration of ethical considerations and societal impact assessment into algorithmic development and computational research frameworks.</p>
-                            <p><strong>Methodological Approach:</strong> Systematic implementation of fairness constraints, bias auditing frameworks, and ethics-by-design methodologies in AI systems.</p>
-                            <p><strong>Academic Contribution:</strong> Advancement of responsible AI research through methodological innovation in ethical assessment and societal impact evaluation.</p>
-                            <div class="vision-impact">
-                                <span class="impact-tag">Ethical Frameworks</span>
-                                <span class="impact-tag">Bias Mitigation</span>
-                                <span class="impact-tag">Societal Impact</span>
-                            </div>
-                        </div>
+                    <div class="teaching-category">
+                        <h3>Elective Courses</h3>
+                        <ul>
+                            <li>Marketing Analytics</li>
+                            <li>Marketing in the age of AI</li>
+                            <li>AI Product Development</li>
+                            <li>Principles of Marketing & Marketing Theory</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <footer class="footer-academic">
-            <div>
-                &copy; 2024 Dr. Vishnu Prasad V &mdash; Academic Website | <a href="https://github.com/viznuv" target="_blank">GitHub</a>
-            </div>
-        </footer>
+            <!-- Research Interests -->
+            <section id="research" class="content-section">
+                <h2>Research & Teaching Interests</h2>
+                <ul class="research-interests">
+                    <li>Consumer Research on AI, Blockchain & Metaverse</li>
+                    <li>Marketing Technologies & AI-Driven Consumer Insights</li>
+                    <li>Cause-Related Marketing & Consumer Ethics</li>
+                    <li>Data Analytics & Experimental Methods</li>
+                </ul>
+            </section>
+
+            <!-- Research Programme Overview -->
+            <section class="content-section research-overview">
+                <h2>Research Programme Overview</h2>
+                <p class="section-intro">
+                    A comprehensive empirical research portfolio employing rigorous experimental and computational 
+                    methodologies to advance marketing theory and practice.
+                </p>
+                
+                <div class="research-areas">
+                    <article class="research-area">
+                        <h3>Marketing Technologies & AI-Driven Consumer Insights</h3>
+                        <p>
+                            Research on AI recommendation systems, generative AI for personalisation, 
+                            Bayesian marketing-mix modeling, and virtual consumption patterns.
+                        </p>
+                        <a href="research-programme.html#marketing-tech" class="read-more">Explore Research →</a>
+                    </article>
+                    
+                    <article class="research-area">
+                        <h3>Brand Activism & Consumer Ethics</h3>
+                        <p>
+                            Studies on trust formation, backlash dynamics, platform governance, 
+                            and ethical digital behaviour in brand-consumer relationships.
+                        </p>
+                        <a href="research-programme.html#brand-activism" class="read-more">Explore Research →</a>
+                    </article>
+                    
+                    <article class="research-area">
+                        <h3>Digital Communication & Societal Dynamics</h3>
+                        <p>
+                            Research on credibility, echo chambers, human-LLM interactions, 
+                            and attention bias in conversational advertising.
+                        </p>
+                        <a href="research-programme.html#digital-comm" class="read-more">Explore Research →</a>
+                    </article>
+                </div>
+                
+                <div class="cta-group">
+                    <a href="research-programme.html" class="btn btn-primary">View Full Research Programme</a>
+                    <a href="working-projects.html" class="btn btn-secondary">Working Projects</a>
+                    <a href="vision-values.html" class="btn btn-secondary">Vision & Values</a>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <script>
-        function openTab(evt, tabName) {
-            // Hide all tab content
-            var tabcontent = document.getElementsByClassName("tab-content");
-            for (var i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].classList.remove("active");
-            }
-
-            // Remove active class from all tab buttons
-            var tablinks = document.getElementsByClassName("tab-button");
-            for (var i = 0; i < tablinks.length; i++) {
-                tablinks[i].classList.remove("active");
-            }
-
-            // Show the selected tab content and mark button as active
-            document.getElementById(tabName).classList.add("active");
-            evt.currentTarget.classList.add("active");
-        }
-
-        // Add smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Add intersection observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in-visible');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all research cards, project items, and vision cards
-        document.addEventListener('DOMContentLoaded', function() {
-            const animatedElements = document.querySelectorAll('.research-card, .project-item, .vision-card');
-            animatedElements.forEach(el => {
-                observer.observe(el);
-            });
-        });
-    </script>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Dr. Vishnu Prasad V — Academic Website</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html> 

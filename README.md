@@ -1,39 +1,56 @@
 # Dr. Vishnu Prasad V - Academic Website
 
-A professional academic website for Dr. Vishnu Prasad V, Assistant Professor of Marketing at Jio Institute.
+Professional academic website for Dr. Vishnu Prasad V, Assistant Professor of Marketing at Jio Institute.
+
+## Overview
+
+A clean, professional academic website showcasing research in:
+- Marketing Technologies & AI-Driven Consumer Insights
+- Brand Activism & Consumer Ethics  
+- Digital Communication & Societal Dynamics
 
 ## Website Structure
 
-- `index.html` - Main homepage with overview sections
-- `research-programme.html` - Detailed research portfolio
-- `working-projects.html` - Current and upcoming projects
-- `vision-values.html` - Research philosophy and values
-- `404.html` - Custom 404 error page
-- `styles.css` - Main stylesheet
-- `script.js` - JavaScript functionality
-- `profile.jpg` - Profile photograph
-- `.nojekyll` - Prevents Jekyll processing
-- `favicon.ico` - Website favicon
+```
+├── index.html              # Homepage
+├── research-programme.html # Comprehensive research portfolio
+├── working-projects.html   # 9 active research initiatives
+├── vision-values.html      # Research philosophy & vision
+├── 404.html               # Error page
+├── styles.css             # Professional CSS styling
+├── script.js              # Minimal JavaScript
+└── profile.jpg            # Profile photograph
+```
 
 ## Features
 
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Academic Layout**: Clean, professional sidebar design
-- **Navigation**: Seamless navigation between pages and sections
-- **Modern Styling**: Elegant typography and spacing
-- **Accessibility**: Proper semantic HTML and ARIA labels
+- **Professional Design**: Clean typography with EB Garamond & Inter fonts
+- **Responsive Layout**: Mobile-first design approach
+- **Fast Loading**: Minimal dependencies, optimized performance
+- **Accessible**: Semantic HTML5, proper heading structure
+- **Print-Ready**: Optimized print stylesheets
+
+## Technical Details
+
+- Pure HTML5 & CSS3 (no frameworks)
+- Minimal JavaScript for smooth scrolling
+- Mobile-responsive design
+- Cross-browser compatible
+- WCAG accessibility considerations
 
 ## Deployment
 
-This website is designed for GitHub Pages deployment. Simply push these files to a repository named `username.github.io` to deploy automatically.
+Designed for GitHub Pages deployment. Push to `username.github.io` repository for automatic deployment.
 
-## Browser Support
+## Contact
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+Dr. Vishnu Prasad V  
+Assistant Professor, Marketing Area  
+Jio Institute
 
-## License
+📧 vishnuprasad@sjmsom.in  
+📧 vishnu19.v@jioinstitute.edu.in
 
-© 2024 Dr. Vishnu Prasad V 
+---
+
+© 2025 Dr. Vishnu Prasad V 
